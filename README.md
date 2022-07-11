@@ -1,5 +1,7 @@
 # ttsabbott.github.io
+
 <!--
+
 Notes from setting up GitHub Pages:
 -----------------------------------
 https://pages.github.com/
@@ -22,5 +24,8 @@ https://realfavicongenerator.net/favicon_result?file_id=p1g7i4r7mooj4183o7k51l6j
 
 The following was used to verify favicon(s) were installed properly:
 https://realfavicongenerator.net/favicon_checker?protocol=https&site=ttsabbott.github.io%2F#.YsnSOezMLxo
+
+The following was used to randomize the background:
+https://stackoverflow.com/questions/18288950/random-fullscreen-background-image-on-browser-refresh
 
 -->

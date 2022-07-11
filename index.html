@@ -11,15 +11,41 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <title>The Abbott Family</title>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
   <style>
-    html {
-      background: url(images/abbott-kids.jpg) no-repeat center center fixed;
+    body {
+      /* background: url(images/abbott-kids.jpg) no-repeat center center fixed; */
+      background: no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }
+    /*
+    body {
+      background: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    */
   </style>
+  <script>
+  $(document).ready(function(){
+    var images=['images/abbott_kids.jpg',
+            'images/abbott_kids2.jpg',
+            'images/abbott_kids3.jpg',
+            'images/abbott_kids_tess.jpg',
+            'images/tess_wolf_steve.jpg',];
+    var randomNumber = Math.floor(Math.random() * images.length);
+    var bgImg = 'url(' + images[randomNumber] + ')';
+    $('body').css({'background':bgImg, 'background-size':'cover', });
+  });
+  </script>
 </head>
 
 <body style="text-align: center;">
