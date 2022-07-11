@@ -47,7 +47,7 @@
             'images/abbott_kids_front.jpg',
             'images/tess_wolf_steve.jpg',];
     var randomNumber = Math.floor(Math.random() * images.length);
-    var bgImg = 'url(' + images[randomNumber] + ')';
+    var bgImg = 'url(' + images[randomNumber] + ')' + ' no-repeat center center fixed';
     $('body').css({'background':bgImg, 'background-size':'cover', });
   });
   </script>
