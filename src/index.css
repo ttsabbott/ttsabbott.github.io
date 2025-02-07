@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #161513;
+    color: white;
+    font-family: Roboto;
+}
+
+:root {
+
+    /* --flOrange: #FA4616;
+    --flBlue: #0021A5; */
+  
+    --flBlue: #007BFF;
+    --flOrange: #FF4500;
+
+    --origColor1: #DF8908;
+    --origColor2: #B415FF;
+
+    --navColor1: #DA7C35;
+    --navColor2: #B923E1;
+    --navMenuColor: #1F0016;
+
+    --serviceColor1: #3F0028;
+    --serviceColor2: #582300;
+    --servicesParaColor: #D4D4D4;
+
+    --latestColor1: #FF00FF;
+
+    --contactInputColor: #A0A0A0;
+    --contactLabelColor: #D8D8D8;
+    --contactBgColor: #32323C;
+}

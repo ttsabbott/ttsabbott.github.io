@@ -1,57 +1,20 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="300">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>The Abbott Family</title>
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous"></script>
-  <style>
-    body {
-      /* background: url(images/abbott-kids.jpg) no-repeat center center fixed; */
-      background: no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-  </style>
-  <script>
-  $(document).ready(function(){
-    var images=['images/abbott_kids.jpg',
-            'images/abbott_kids2.jpg',
-            'images/abbott_kids3.jpg',
-            'images/abbott_kids_tess.jpg',
-            'images/abbott_kids_pool.jpg',
-            'images/abbott_kids_pumpkin.jpg',
-            'images/abbott_kids_soccer.jpg',
-            'images/abbott_kids_faith+1.jpg',
-            'images/abbott_kids_front.jpg',
-            'images/tess_wolf_steve.jpg',];
-    var randomNumber = Math.floor(Math.random() * images.length);
-    var bgImg = 'url(' + images[randomNumber] + ')' + ' no-repeat center center fixed';
-    $('body').css({'background':bgImg, 'background-size':'cover', });
-  });
-  </script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
-<body style="text-align: center;">
-  <h1>The Abbott Family</h1>
-  <p>Hosted with GitHub Pages</p>
-  <p style="display: none;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/F87GZpCHSG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </p>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
