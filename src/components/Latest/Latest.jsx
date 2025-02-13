@@ -17,6 +17,7 @@ const Latest = () => {
                         <div key={index} className='latest-work'>
                             <h2>{work.w_name}</h2>
                             <p>{work.w_desc}</p>
+                            <span>Tech used: {work.w_tech}</span><br />
                             <a href={work.w_href} target='_blank' rel="noreferrer">
                             <img key={index} src={work.w_img} alt="" />
                             </a>

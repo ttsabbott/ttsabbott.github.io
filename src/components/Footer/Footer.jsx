@@ -48,6 +48,8 @@ const Footer = ({ setMenu }) => {
                             <img src={mail_icon} alt="" />
                             <input type="email" placeholder='Enter your email' name='email' />
                             <input type="hidden" name="message" value="Subscribe" />
+                            <input type="hidden" name="subject" value="Subscribe message from portfolio website" />
+                            {/* <input type="hidden" name="redirect" value="https://ttsabbott.com/thanks.html" /> */}
                         </div>
                         <button type="submit" className='footer-subscribe'>Subscribe</button>
                     </form>

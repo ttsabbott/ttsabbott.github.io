@@ -70,6 +70,8 @@ const Contact = () => {
                     <input type="email" placeholder='Enter your email' name='email' />
                     <label htmlFor="email">Message</label>
                     <textarea placeholder='Enter your message' name='message' rows="8"></textarea>
+                    <input type="hidden" name="subject" value="Contact message from portfolio website" />
+                    {/* <input type="hidden" name="redirect" value="https://ttsabbott.com/thanks.html" /> */}
                     <button type="submit" className='contact-submit'>Send Message</button>
                 </form>
             </div>
