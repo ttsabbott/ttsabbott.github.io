@@ -11,7 +11,7 @@ const mywork_data = [
         w_no:1,
         w_name:"React Router",
         w_desc:"React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps UI in sync with the URL.",
-        w_tech:"React, React Router, Supabase SQL (Blog)",
+        w_tech:"React, React Router, Supabase REST + SQL (Blog)",
         w_href:"/react-router",
         w_img:project1_img
     },
