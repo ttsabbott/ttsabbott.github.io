@@ -59,7 +59,7 @@ const mywork_data = [
         w_no:6,
         w_name:"Vendor Portal",
         w_desc:"WebSphere Portal with 50+ applictions for internal and external customers. Applications range from simple to complex, including web services, batch programs, and database design.",
-        w_tech:"Java, J2EE, WebSphere Portal, Oracle, Web Services, Batch Programs, SQL, DB2, JSP, JavaScript, HTML, CSS, XML, XSD, SOAP, REST, JSON, AJAX, jQuery, jQWidgets, Bootstrap, Spring, Hibernate, Struts, JPA, JMS, JNDI, LDAP, SSO, SAML",
+        w_tech:"Java, J2EE, WebSphere Portal, Oracle, Web Services, SQL, DB2, JSP, JavaScript, HTML, CSS, XML, XSD, SOAP, REST, JSON, AJAX, jQuery, jQWidgets, Bootstrap, Spring, Hibernate, Struts, JPA, JMS, JNDI, LDAP, SSO, SAML, Batch Programs",
         w_href:"https://partner.veyerlogistics.com",
         w_img:project7_img
     },
