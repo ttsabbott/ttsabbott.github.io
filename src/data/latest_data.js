@@ -36,7 +36,7 @@ const mywork_data = [
         w_name:"React Hacker Stories",
         w_desc:"Hacker Stories is a web application that displays a list of stories from Hacker News. It allows users to search and view stories based on their preferences.",
         w_tech:"React, React Router, Hacker News API",
-        w_href:"/react-router/hackerstories",
+        w_href:"/react-router/#/hackerstories",
         w_img:project4_img
     },
     {
@@ -44,7 +44,7 @@ const mywork_data = [
         w_name:"React Weather",
         w_desc:"Weather is a web application that displays the current weather of a location. It allows users to search and view the weather based on their preferences.",
         w_tech:"React, React Router, NOAA Weather API",
-        w_href:"/react-router/weather",
+        w_href:"/react-router/#/weather",
         w_img:project5_img
     },
     // {
