@@ -57,7 +57,7 @@ const Footer = ({ setMenu }) => {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">Copyright &copy; 2025 Steve Abbott. All rights reserved.</p>
+                <p className="footer-bottom-left">Copyright &copy; 2026 Steve Abbott. All rights reserved.</p>
                 <div className="footer-bottom-right">
                     {/* <p>Terms of Service</p> */}
                     {/* <p>Privacy Policy</p> */}
