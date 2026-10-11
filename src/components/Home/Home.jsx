@@ -9,7 +9,7 @@ const Home = () => {
         <div id="home" className='home'>
             <img src={profile_img} alt="" />
             <h1>I'm <span>Steve Abbott</span>, a full-stack developer.</h1>
-            <p>Providing top-tier remote development since April 2007 from Tucson, AZ.</p>
+            <p>Delivering elite remote development from Tucson, AZ, since 2007.</p>
             <div className="home-action">
                 <div className="home-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
                 <div className="home-resume"><a href={pdf_download}>My Resume</a></div>
